@@ -11,7 +11,7 @@ namespace CGEnemyIcons
 
         private void Awake()
         {
-            assets = AssetBundle.LoadFromMemory(Properties.Resources.Assets);
+            assets = AssetBundle.LoadFromMemory(Properties.Resources.assets);
             CGEnemyIcons.Config.Init();
 
             new Harmony(PluginInfo.PLUGIN_GUID).PatchAll();
