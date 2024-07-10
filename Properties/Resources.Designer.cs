@@ -63,9 +63,9 @@ namespace CGEnemyIcons.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] Assets {
+        internal static byte[] assets {
             get {
-                object obj = ResourceManager.GetObject("Assets", resourceCulture);
+                object obj = ResourceManager.GetObject("assets", resourceCulture);
                 return ((byte[])(obj));
             }
         }
